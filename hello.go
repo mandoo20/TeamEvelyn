@@ -15,8 +15,10 @@ func main() {
 	}
 
 	u1 := user{"user1", 21}
+	u2 := user{"user2", 22}
 
-	fmt.Println(u1.Name)
+	fmt.Println(u1.Name, u1.Umur)
+	fmt.Println(u2.Name, u2.Umur)
 
 	fmt.Printf("%v \n", a)
 	fmt.Printf("%v \n", b)
